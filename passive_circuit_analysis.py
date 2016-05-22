@@ -26,19 +26,3 @@ def parallel(*args):
 
 def voltage_divider(zs, zl):
     return zl/(zs+zl)
-
-def get_frequencies(**kwargs):
-    if kwargs is None:
-        return
-
-    if 'start' in kwargs:
-        print(kwargs['start'])
-
-    if 'stop' in kwargs:
-        print(kwargs['stop'])
-
-    if 'step' in kwargs:
-        print(kwargs['step'])
-
-    if 'num_points' in kwargs:
-        print(kwargs['num_points'])
